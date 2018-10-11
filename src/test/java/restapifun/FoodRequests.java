@@ -13,8 +13,8 @@ public class FoodRequests {
     Response resp;
     String uri = "https://api.edamam.com/api/food-database/parser?ingr=";
     String foodName;
-    String appId = "&app_id=d4798728";
-    String appKey = "&app_key=0d8c087fdc5625015ad0808e6ef05881";
+    String appId = "&app_id="; //signup on https://developer.edamam.com/food-database-api to get info;
+    String appKey = "&app_key="; //signup on https://developer.edamam.com/food-database-api to get info;
 
 
     public void getRequest(String foodName){
